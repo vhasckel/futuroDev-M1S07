@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <title>M1S07 - Ex 2</title>
+</head>
+
+<body>
+    <!-- Utilizar CSS Grid ou Flexbox para a base da tela.
+    Siga uma arquitetura próxima a imagem abaixo, não necessita copiar todos os elementos visuais / design. -->
+    <main class="container">
+
+        <section class="box-left w-50">
+
+            <div class="header">
+                <h1>Sign In to<br> this session</h1>
+                <p>If you don't have an account,<br> You can <a href="#"><span>Register here!</span></a></p>
+            </div>
+
+            <div class="image-backgorund">
+                <img src="./assets/spacesheep.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="box-right">
+            <form action="" method="" class="w-50">
+
+                <div class="w-50">
+                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw">
+
+                    <div class="forgot-pws">
+                        <span class="psw">Forgot <a shref="#">password?</a></span>
+                    </div>
+
+                    <button class="btn sign-in" type="submit">Sign In</button>
+                </div>
+
+                <div class="w-50 box-sign-in">
+
+                    <p class="line">or</p>
+
+                    <button class="btn sign-with" type="submit">Login with google</button>
+                    <button class="btn sign-with" type="submit">Login with github</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

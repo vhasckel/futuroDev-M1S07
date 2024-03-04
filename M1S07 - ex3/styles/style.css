@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    align-items: center;
+    background-color: #d2b7e5;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a>span {
+    color: #7b2cbf;
+    font-weight: 500;
+}
+
+input {
+    background-color: #e4d5f1;
+    border-radius: 10px;
+    border: none;
+    color: rgb(156, 156, 156);
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 0 15px;
+    width: 260px;
+}
+
+
+form {
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.container {
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 20px;
+    border: 1px solid #c1afd1;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    height: fit-content;
+    justify-content: center;
+    padding: 5rem 10rem;
+    width: fit-content;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.box-sign-in p {
+    color: rgb(156, 156, 156);
+    text-align: center;
+}
+
+.header p {
+    color: rgb(156, 156, 156);
+    padding-top: 20px;
+}
+
+.box-left {
+    height: 520px;
+}
+
+
+.box-right {
+    height: 520px;
+    width: 260px;
+}
+
+
+.forgot-pws {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: end;
+}
+
+.image-backgorund img {
+    margin-left: -80px;
+    width: 400px;
+}
+
+.w-50 {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-pws {
+    color: rgb(156, 156, 156);
+    font-size: .8rem;
+    margin-top: -20px;
+    width: 100%;
+}
+
+
+.btn {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+
+.sign-in {
+    background-color: #7b2cbf;
+}
+
+.sign-with {
+    background-color: transparent;
+    border: 1px solid rgb(156, 156, 156);
+    color: rgb(156, 156, 156);
+}
+
+h1 {
+    color: rgb(72, 72, 72);
+    font-size: 3rem;
+}

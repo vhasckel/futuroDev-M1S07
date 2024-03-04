@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.header {
+    background-color: #EF476F;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.content {
+    background-color: #FFD166;
+    width: 70%;
+}
+
+.sidebar {
+    background-color: #06D6A0;
+    width: 30%;
+}
+
+.content,
+.sidebar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
