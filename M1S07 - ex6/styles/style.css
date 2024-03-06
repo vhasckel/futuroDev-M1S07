@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+header,
+ul,
+li {
+    /* padding: 10px; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    padding-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+main {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    gap: 10rem;
+}
+
+.image {
+    width: 550px;
+    height: 550px;
+    /* border: 1px solid white; */
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+img {
+    width: 140%;
+    height: 140%;
+    object-fit: cover;
+    object-position: right;
+
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+span {
+    color: #FFBF00;
+}
+
+p {
+    color: #B2B2B2;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+button {
+    color: #332200;
+    background-color: #FFBF00;
+    width: 260px;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+}
